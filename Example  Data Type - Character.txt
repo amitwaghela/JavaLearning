@@ -1,0 +1,29 @@
+Character data type is used to store just one character in the variable. It is very rarely used in Selenium. To initialize such a variable, assign a character within the single-quoted. 
+
+Here is an example:
+
+
+-----------
+
+Above test will produce this:
+
+Value of char is : P
+
+------------
+
+
+public class CharTestExercise {
+
+	public static void main(String[] args) {
+		//Use the char keyword to declare character variable
+        char a;
+
+        //Initialize the char variable with value 'P'
+        a = 'P';
+
+        //Print the value of char variable
+      	System.out.println("Value of char is : " +  a);
+
+	}
+
+}
