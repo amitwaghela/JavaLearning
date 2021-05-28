@@ -1,0 +1,33 @@
+The if-then statement is a control flow statement. Which actually specifies that the block of code is only executed when the test specified by the if part evaluated to be true. The if statement executed from top to down. As soon as one of the conditions is true, statement associated with that if statement executed. Keyword then is not used in Java and it is denoted as {}. The syntax for if-then statement is:
+
+if(boolean-expression){  
+		statement; //This part of code will only execute when the condition returns true 
+		}
+
+
+------------------------- CODE --------------------------
+
+package javaTutorials;
+
+public class IfThen_Statement {
+
+	public static void main(String[] args) {
+		String sDay = "Sunday";
+		int iDay = 7;
+
+		if(sDay.equals("Sunday")){
+			System.out.println("Today is Sunday");
+		}
+
+		if(iDay==7){
+			System.out.println("Today is Sunday");
+		}
+	}
+}
+
+
+-------------------------------------- Result -----------------------------
+
+Today is Sunday
+Today is Sunday
+

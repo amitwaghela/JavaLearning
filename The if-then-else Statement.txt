@@ -1,0 +1,42 @@
+If the statement can be executed in different ways, such as if-then-else & if-else_if-else. The optional else block is executed when the if part evaluates to false. The syntax for the if-then-else statement is:
+
+
+if (boolean-expression) {
+        // Execute if boolean-expression is true
+    } else {
+        // Execute if boolean-expression is false
+    }
+
+
+
+--------------------------------- CODE ---------------------------
+
+
+package javaTutorials;
+
+public class IfThenElse_Statement {
+
+	public static void main(String[] args) {
+		String sDay = "Saturday";
+		int iDay = 6;
+
+		if(sDay.equals("Sunday")){
+			System.out.println("Today is Sunday");
+		}else{
+			System.out.println("Today is not Sunday");
+		}
+
+		if(iDay==7){
+			System.out.println("Today is Sunday");
+		}else{
+			System.out.println("Today is not Sunday");
+		}
+	}
+}
+
+
+------------------------------ RESULT  ----------------------------
+
+Today is not Sunday
+Today is not Sunday
+
